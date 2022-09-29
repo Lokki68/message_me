@@ -11,3 +11,7 @@ User.create(username: 'Louis', password: 'password')
 User.create(username: 'Enzo', password: 'password')
 User.create(username: 'Antoine', password: 'password')
 User.create(username: 'Robin', password: 'password')
+
+Message.create(body: 'Hello everyone', user_id: 1)
+Message.create(body: 'Hy new guy', user_id: 4)
+Message.create(body: "I'm chillin like ...", user_id: 5)
